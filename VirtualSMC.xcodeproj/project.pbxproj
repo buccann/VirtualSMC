@@ -14,8 +14,15 @@
 		35262A2020D42D9A00109064 /* SMCLightSensor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35262A1F20D42D9A00109064 /* SMCLightSensor.cpp */; };
 		352D134320D1AC7000DAFCCD /* SMCSMBusController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352D133F20D18CEB00DAFCCD /* SMCSMBusController.cpp */; };
 		352D134420D1AC7400DAFCCD /* SMCSMBusController.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 352D134020D18CEB00DAFCCD /* SMCSMBusController.hpp */; };
+		35A66FAF213B0FAA00CE53E2 /* FakeSMCPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A66FAD213B0FA900CE53E2 /* FakeSMCPlugin.h */; };
+		35A66FB0213B0FAA00CE53E2 /* FakeSMCPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35A66FAE213B0FA900CE53E2 /* FakeSMCPlugin.cpp */; };
+		35A66FB2213B0FEF00CE53E2 /* FakeSMCDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A66FB1213B0FEF00CE53E2 /* FakeSMCDefinitions.h */; };
 		35A7B40D20CC337F00DAF347 /* SMCBatteryManager.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 35A7B40C20CC337F00DAF347 /* SMCBatteryManager.hpp */; };
 		35A7B40F20CC337F00DAF347 /* SMCBatteryManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35A7B40E20CC337F00DAF347 /* SMCBatteryManager.cpp */; };
+		35A91AEB2139ED0C003B337B /* FakeSMCPluginHost.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 35A91AEA2139ED0C003B337B /* FakeSMCPluginHost.hpp */; };
+		35A91AED2139ED0C003B337B /* FakeSMCPluginHost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35A91AEC2139ED0C003B337B /* FakeSMCPluginHost.cpp */; };
+		35AAD91E213D271800D62FD5 /* FakeSMCValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35AAD91C213D271800D62FD5 /* FakeSMCValue.cpp */; };
+		35AAD91F213D271800D62FD5 /* FakeSMCValue.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 35AAD91D213D271800D62FD5 /* FakeSMCValue.hpp */; };
 		35AB9A6120ECC51F001FBD53 /* ACPIBattery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35AB9A5F20ECC51F001FBD53 /* ACPIBattery.cpp */; };
 		35AB9A6220ECC51F001FBD53 /* ACPIBattery.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 35AB9A6020ECC51F001FBD53 /* ACPIBattery.hpp */; };
 		35ABAEF420ED577F00534E67 /* ACPIACAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35ABAEF220ED577F00534E67 /* ACPIACAdapter.cpp */; };
@@ -202,10 +209,19 @@
 		352D133F20D18CEB00DAFCCD /* SMCSMBusController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SMCSMBusController.cpp; sourceTree = "<group>"; };
 		352D134020D18CEB00DAFCCD /* SMCSMBusController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SMCSMBusController.hpp; sourceTree = "<group>"; };
 		352D134520D2E39C00DAFCCD /* IOSMBusController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSMBusController.h; sourceTree = "<group>"; };
+		35A66FAD213B0FA900CE53E2 /* FakeSMCPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeSMCPlugin.h; sourceTree = "<group>"; };
+		35A66FAE213B0FA900CE53E2 /* FakeSMCPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FakeSMCPlugin.cpp; sourceTree = "<group>"; };
+		35A66FB1213B0FEF00CE53E2 /* FakeSMCDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeSMCDefinitions.h; sourceTree = "<group>"; };
 		35A7B40A20CC337F00DAF347 /* SMCBatteryManager.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMCBatteryManager.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A7B40C20CC337F00DAF347 /* SMCBatteryManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SMCBatteryManager.hpp; sourceTree = "<group>"; };
 		35A7B40E20CC337F00DAF347 /* SMCBatteryManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SMCBatteryManager.cpp; sourceTree = "<group>"; };
 		35A7B41020CC337F00DAF347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A91AE82139ED0C003B337B /* FakeSMCPluginHost.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeSMCPluginHost.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A91AEA2139ED0C003B337B /* FakeSMCPluginHost.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FakeSMCPluginHost.hpp; sourceTree = "<group>"; };
+		35A91AEC2139ED0C003B337B /* FakeSMCPluginHost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FakeSMCPluginHost.cpp; sourceTree = "<group>"; };
+		35A91AEE2139ED0D003B337B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35AAD91C213D271800D62FD5 /* FakeSMCValue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FakeSMCValue.cpp; sourceTree = "<group>"; };
+		35AAD91D213D271800D62FD5 /* FakeSMCValue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FakeSMCValue.hpp; sourceTree = "<group>"; };
 		35AB9A5F20ECC51F001FBD53 /* ACPIBattery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ACPIBattery.cpp; sourceTree = "<group>"; };
 		35AB9A6020ECC51F001FBD53 /* ACPIBattery.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ACPIBattery.hpp; sourceTree = "<group>"; };
 		35ABAEF220ED577F00534E67 /* ACPIACAdapter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ACPIACAdapter.cpp; sourceTree = "<group>"; };
@@ -344,6 +360,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35A91AE52139ED0C003B337B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE09E8BC1FFD20DB0010A9CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -412,6 +435,7 @@
 				35A7B40A20CC337F00DAF347 /* SMCBatteryManager.kext */,
 				35262A1B20D42D9A00109064 /* SMCLightSensor.kext */,
 				CEA5AAB72129AF3A0001F426 /* libaistat.dylib */,
+				35A91AE82139ED0C003B337B /* FakeSMCPluginHost.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -502,6 +526,21 @@
 				CE18E0B92117F20A006DE3AA /* BatteryManagerState.hpp */,
 			);
 			path = SMCBatteryManager;
+			sourceTree = "<group>";
+		};
+		35A91AE92139ED0C003B337B /* FakeSMCPluginHost */ = {
+			isa = PBXGroup;
+			children = (
+				35A66FB1213B0FEF00CE53E2 /* FakeSMCDefinitions.h */,
+				35A91AEA2139ED0C003B337B /* FakeSMCPluginHost.hpp */,
+				35A91AEC2139ED0C003B337B /* FakeSMCPluginHost.cpp */,
+				35A66FAE213B0FA900CE53E2 /* FakeSMCPlugin.cpp */,
+				35A66FAD213B0FA900CE53E2 /* FakeSMCPlugin.h */,
+				35A91AEE2139ED0D003B337B /* Info.plist */,
+				35AAD91C213D271800D62FD5 /* FakeSMCValue.cpp */,
+				35AAD91D213D271800D62FD5 /* FakeSMCValue.hpp */,
+			);
+			path = FakeSMCPluginHost;
 			sourceTree = "<group>";
 		};
 		CE09E8C71FFD20F90010A9CA /* Frameworks */ = {
@@ -627,6 +666,7 @@
 		CEA5F62E20B8BE27008E6E8A /* Sensors */ = {
 			isa = PBXGroup;
 			children = (
+				35A91AE92139ED0C003B337B /* FakeSMCPluginHost */,
 				CE58DD4620E86DA0006B19D0 /* Private */,
 				35262A1C20D42D9A00109064 /* SMCLightSensor */,
 				35A7B40B20CC337F00DAF347 /* SMCBatteryManager */,
@@ -791,6 +831,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35A91AE32139ED0C003B337B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A66FAF213B0FAA00CE53E2 /* FakeSMCPlugin.h in Headers */,
+				35AAD91F213D271800D62FD5 /* FakeSMCValue.hpp in Headers */,
+				35A91AEB2139ED0C003B337B /* FakeSMCPluginHost.hpp in Headers */,
+				35A66FB2213B0FEF00CE53E2 /* FakeSMCDefinitions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEA5AAB32129AF3A0001F426 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -912,6 +963,24 @@
 			productReference = 35A7B40A20CC337F00DAF347 /* SMCBatteryManager.kext */;
 			productType = "com.apple.product-type.kernel-extension";
 		};
+		35A91AE72139ED0C003B337B /* FakeSMCPluginHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A91AF12139ED0D003B337B /* Build configuration list for PBXNativeTarget "FakeSMCPluginHost" */;
+			buildPhases = (
+				35A91AE32139ED0C003B337B /* Headers */,
+				35A91AE42139ED0C003B337B /* Sources */,
+				35A91AE52139ED0C003B337B /* Frameworks */,
+				35A91AE62139ED0C003B337B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeSMCPluginHost;
+			productName = FakeSMCPluginHost;
+			productReference = 35A91AE82139ED0C003B337B /* FakeSMCPluginHost.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
 		CE09E8BE1FFD20DB0010A9CA /* smc-fuzzer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE09E8C31FFD20DB0010A9CA /* Build configuration list for PBXNativeTarget "smc-fuzzer" */;
@@ -1019,6 +1088,10 @@
 						DevelopmentTeam = P5ZFLGLAFT;
 						ProvisioningStyle = Automatic;
 					};
+					35A91AE72139ED0C003B337B = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
 					CE09E8BE1FFD20DB0010A9CA = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -1070,6 +1143,7 @@
 				CE09E8BE1FFD20DB0010A9CA /* smc-fuzzer */,
 				CE335AD92096738A00C60A5F /* rtcread */,
 				CEA5AAB62129AF3A0001F426 /* aistat */,
+				35A91AE72139ED0C003B337B /* FakeSMCPluginHost */,
 			);
 		};
 /* End PBXProject section */
@@ -1083,6 +1157,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		35A7B40820CC337F00DAF347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A91AE62139ED0C003B337B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1148,6 +1229,16 @@
 				35DF6DD220E16D1C00604535 /* KeyImplementations.cpp in Sources */,
 				352D134320D1AC7000DAFCCD /* SMCSMBusController.cpp in Sources */,
 				35A7B40F20CC337F00DAF347 /* SMCBatteryManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A91AE42139ED0C003B337B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A91AED2139ED0C003B337B /* FakeSMCPluginHost.cpp in Sources */,
+				35AAD91E213D271800D62FD5 /* FakeSMCValue.cpp in Sources */,
+				35A66FB0213B0FAA00CE53E2 /* FakeSMCPlugin.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1457,6 +1548,20 @@
 			};
 			name = Release;
 		};
+		35127C59214115A300638952 /* Sanitize */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"PRODUCT_NAME=FakeSMCPluginHost",
+				);
+				MODULE_START = "$(PRODUCT_NAME)_kern_start";
+				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
+				PRODUCT_NAME = FakeSMCPluginHost;
+			};
+			name = Sanitize;
+		};
 		35262A2220D42D9A00109064 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1646,6 +1751,84 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.usrsse2.SMCBatteryManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_STYLE = "non-global";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		35A91AEF2139ED0D003B337B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"PRODUCT_NAME=FakeSMCPluginHost",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"${PROJECT_DIR}/Lilu.kext/Contents/Resources",
+				);
+				INFOPLIST_FILE = Sensors/FakeSMCPluginHost/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULE_NAME = ru.usrsse2.FakeSMCPluginHost;
+				MODULE_START = "$(PRODUCT_NAME)_kern_start";
+				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
+				MODULE_VERSION = 1.0.0d1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.usrsse2.FakeSMCPluginHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		35A91AF02139ED0D003B337B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = "PRODUCT_NAME=FakeSMCPluginHost";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"${PROJECT_DIR}/Lilu.kext/Contents/Resources",
+				);
+				INFOPLIST_FILE = Sensors/FakeSMCPluginHost/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULE_NAME = ru.usrsse2.FakeSMCPluginHost;
+				MODULE_START = "$(PRODUCT_NAME)_kern_start";
+				MODULE_STOP = "$(PRODUCT_NAME)_kern_stop";
+				MODULE_VERSION = 1.0.0d1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.usrsse2.FakeSMCPluginHost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
@@ -2562,6 +2745,16 @@
 				35A7B41120CC337F00DAF347 /* Debug */,
 				CE2687FF213BD04C00E17BDD /* Sanitize */,
 				35A7B41220CC337F00DAF347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A91AF12139ED0D003B337B /* Build configuration list for PBXNativeTarget "FakeSMCPluginHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A91AEF2139ED0D003B337B /* Debug */,
+				35A91AF02139ED0D003B337B /* Release */,
+				35127C59214115A300638952 /* Sanitize */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
