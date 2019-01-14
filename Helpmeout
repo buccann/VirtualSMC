@@ -1,0 +1,7 @@
+Hi, i've a real macbook and i think virtualSMC can help me with a problem.
+I've one of the temperature sensors broken so the system runs as if it's burning hot
+and throttles both the cpu and gpu :( is it possible with this kext to ignore all
+the temperature sensors and tell the mac to run as it should?
+
+
+Thanks in advance 
